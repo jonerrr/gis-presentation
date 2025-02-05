@@ -1,0 +1,16 @@
+[project]
+name = "gis-workshop"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "contextily>=1.6.2",
+    "folium>=0.19.4",
+    "geopandas>=1.0.1",
+    "ipykernel>=6.29.5",
+    "mapclassify>=2.8.1",
+    "matplotlib>=3.10.0",
+    "nbconvert>=7.16.5",
+    "pygments>=2.19.1",
+]

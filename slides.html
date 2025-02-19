@@ -7479,7 +7479,7 @@ main {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h1 id="Raster-Data">Raster Data<a class="anchor-link" href="#Raster-Data">¶</a></h1><p>Raster data is made up of a grid of cells, where each cell has a value representing a specific attribute.</p>
-<p>For example, a raster dataset could represent elevation, where each cell's value indicates the height above sea level. Heat maps, satellite images, and digital elevation models are common examples of raster data.</p>
+<p>For example, a raster dataset could represent elevation, where each cell's value indicates the height above sea level. Heat maps and satellite imagery are also usually stored as raster data.</p>
 </div>
 </div>
 </div>
@@ -7524,7 +7524,7 @@ main {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h1 id="Popular-File-Formats-for-vector-GIS-Data">Popular File Formats for vector GIS Data<a class="anchor-link" href="#Popular-File-Formats-for-vector-GIS-Data">¶</a></h1><ol>
-<li><strong>Shapefile (.shp)</strong>: A popular vector data format used for storing the geometric location and attribute information of geographic features. It consists of multiple files with the same base name but different extensions.</li>
+<li><strong>Shapefile (.shp)</strong>: Introduced in early 1990s, it consists of multiple files with the same base name but different extensions (<code>.shp</code>, <code>shx</code>, <code>.dbf</code>). The file cannot exceed more than ~70 million point features (or 2 GB). Column names must be 10 characters or less.</li>
 <li><strong>GeoJSON</strong> (.geojson): A format for encoding a variety of geographic data structures using JavaScript Object Notation (JSON). It is widely used for web mapping applications.</li>
 <li><strong>GeoDatabase</strong> (.gdb): A proprietary format used by Esri's ArcGIS software to store and manage spatial data.</li>
 <li><strong>WKT (Well-Known Text)</strong>: A text markup language for representing vector geometry objects.</li>
@@ -7540,7 +7540,7 @@ main {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h1 id="Important-GIS-Concepts">Important GIS Concepts<a class="anchor-link" href="#Important-GIS-Concepts">¶</a></h1><ol>
-<li><strong>Coordinate Reference System (CRS)</strong>: A CRS defines where the two dimensional coordinates, relate to a real place on earth. It is essential for accurately mapping and analyzing spatial data.</li>
+<li><strong>Coordinate Reference System (CRS)</strong>: A CRS defines where the coordinates, relate to a real place on earth. It is essential for accurately mapping and analyzing spatial data.</li>
 <li><strong>Geocoding</strong>: The process of converting addresses or place names into geographic coordinates (latitude and longitude).</li>
 <li><strong>Spatial Analysis</strong>: The process of examining the locations, attributes, and relationships of features in spatial data to derive insights and make decisions.</li>
 </ol>
@@ -7548,19 +7548,6 @@ main {
 </div>
 </div>
 </div></section></section><section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="CRS-and-Projections">CRS and Projections<a class="anchor-link" href="#CRS-and-Projections">¶</a></h1><ul>
-<li>A Coordinate Reference System (CRS) defines how coordinates are mapped to the surface of the Earth.</li>
-</ul>
-</div>
-</div>
-</div>
-</div></section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -7638,7 +7625,7 @@ main {
 </div>
 </div>
 </div>
-</div></section></section><section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
